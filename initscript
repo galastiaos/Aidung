@@ -1,0 +1,7 @@
+#!/bin/bash
+cp .bashrc /home/$(whoami)/.bashrc
+source ~/.bashrc
+sudo apt-get install default-jre
+sudo cp dex-tools-v2.4/*.sh /usr/local/bin
+sudo cp -r dex-tools-v2.4/bin /usr/local/bin
+
